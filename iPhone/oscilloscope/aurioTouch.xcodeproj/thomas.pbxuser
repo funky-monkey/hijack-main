@@ -136,13 +136,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314811988;
-			PBXWorkspaceStateSaveDate = 314811988;
+			PBXPerProjectTemplateStateSaveDate = 318782971;
+			PBXWorkspaceStateSaveDate = 318782971;
 		};
 		perUserProjectItems = {
 			E93019AC11AF265F00EA09DA /* PBXTextBookmark */ = E93019AC11AF265F00EA09DA /* PBXTextBookmark */;
 			E9684AA211AEB31800BC0A25 /* PBXTextBookmark */ = E9684AA211AEB31800BC0A25 /* PBXTextBookmark */;
 			E9684AA411AEB31800BC0A25 /* PBXTextBookmark */ = E9684AA411AEB31800BC0A25 /* PBXTextBookmark */;
+			E96EDE231300B9A8009B10C8 /* PlistBookmark */ = E96EDE231300B9A8009B10C8 /* PlistBookmark */;
 			E987260111AEAC8800FA99BA /* PBXTextBookmark */ = E987260111AEAC8800FA99BA /* PBXTextBookmark */;
 			E987260211AEAC8800FA99BA /* PBXTextBookmark */ = E987260211AEAC8800FA99BA /* PBXTextBookmark */;
 			E999AA8D12C2EC0F0002E019 /* PBXTextBookmark */ = E999AA8D12C2EC0F0002E019 /* PBXTextBookmark */;
@@ -158,7 +159,6 @@
 			E999AAE112C468700002E019 /* PBXBookmark */ = E999AAE112C468700002E019 /* PBXBookmark */;
 			E999AAE212C468700002E019 /* PBXBookmark */ = E999AAE212C468700002E019 /* PBXBookmark */;
 			E999AAE312C468700002E019 /* PBXTextBookmark */ = E999AAE312C468700002E019 /* PBXTextBookmark */;
-			E999AAE412C468700002E019 /* PlistBookmark */ = E999AAE412C468700002E019 /* PlistBookmark */;
 			E999AAE512C468700002E019 /* PlistBookmark */ = E999AAE512C468700002E019 /* PlistBookmark */;
 			E9DBB47811B73FD000BED9BA /* PBXTextBookmark */ = E9DBB47811B73FD000BED9BA /* PBXTextBookmark */;
 			E9DBB47A11B73FD000BED9BA /* PBXTextBookmark */ = E9DBB47A11B73FD000BED9BA /* PBXTextBookmark */;
@@ -258,6 +258,18 @@
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 6844;
+	};
+	E96EDE231300B9A8009B10C8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/thomas/Documents/projects/hijack-main-git/iPhone/oscilloscope/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	E98725AF11AE97A700FA99BA /* HiJack */ = {
 		isa = PBXExecutable;
@@ -407,18 +419,6 @@
 		vrLen = 550;
 		vrLoc = 2348;
 	};
-	E999AAE412C468700002E019 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundlePackageType,
-		);
-		name = "/Users/thomas/Documents/projects/hijack-main-git/iPhone/oscilloscope/Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	E999AAE512C468700002E019 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -429,7 +429,7 @@
 		);
 		name = "/Users/thomas/Documents/projects/hijack-main-git/iPhone/oscilloscope/Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	E9DBB47811B73FD000BED9BA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
