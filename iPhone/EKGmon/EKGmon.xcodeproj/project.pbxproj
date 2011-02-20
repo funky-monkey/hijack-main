@@ -31,7 +31,6 @@
 		0BB3D8E112D67EA4000887A8 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D8DB12D67EA4000887A8 /* CADebugMacros.cpp */; };
 		0BB3D8E212D67EA4000887A8 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D8DD12D67EA4000887A8 /* CAXException.cpp */; };
 		0BB3D8E312D67EA4000887A8 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D8E012D67EA4000887A8 /* CAStreamBasicDescription.cpp */; };
-		0BBC17011207491800A16684 /* samples.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC17001207491800A16684 /* samples.csv */; };
 		1D3623260D0F684500981E51 /* EKGmonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* EKGmonAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -88,7 +87,6 @@
 		0BB3D8DE12D67EA4000887A8 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
 		0BB3D8DF12D67EA4000887A8 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 		0BB3D8E012D67EA4000887A8 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
-		0BBC17001207491800A16684 /* samples.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = samples.csv; path = ../../../Downloads/samples.csv; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* EKGmonAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKGmonAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* EKGmonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKGmonAppDelegate.m; sourceTree = "<group>"; };
@@ -221,7 +219,6 @@
 				0B3CF6ED126F3EB7000761DF /* Icon.png */,
 				0B3CF6EE126F3EB7000761DF /* Icon@2x.png */,
 				0B3CF6E5126F3C71000761DF /* icon-nowatermark.png */,
-				0BBC17001207491800A16684 /* samples.csv */,
 				0B0F2A6511ECD9770035EF7E /* hert_logo.png */,
 				0B0F2A6711ECD9820035EF7E /* EKGmonViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -342,7 +339,6 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				0B0F2A6611ECD9770035EF7E /* hert_logo.png in Resources */,
 				0B0F2A6811ECD9820035EF7E /* EKGmonViewController.xib in Resources */,
-				0BBC17011207491800A16684 /* samples.csv in Resources */,
 				0B6CC47C129BF71D002CC729 /* icon-nowatermark.png in Resources */,
 				0B6CC47D129BF71E002CC729 /* Icon.png in Resources */,
 				0B6CC47E129BF71F002CC729 /* Icon@2x.png in Resources */,
@@ -512,7 +508,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv6 i386";
 			};
 			name = Debug;
 		};
@@ -535,7 +531,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv6 i386";
 			};
 			name = Release;
 		};
